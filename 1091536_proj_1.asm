@@ -12,7 +12,7 @@ main:
 	addi s4, x0,20      # s3 as 20 
 	addi s11,x0, 0      # answer s11 = 0
  	la a0, Input        # load label Input to a0
-	li a7, 4            # PrintString at a0, "Input a number:\n
+	li a7, 4            # PrintString at a0, "Input a number:\n"
 	ecall
 	li a7,5             # ReadInt to a0
 	ecall
