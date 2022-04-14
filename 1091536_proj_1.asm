@@ -84,6 +84,6 @@ X_1:                        # 1=N
 X_0:                        # 0=N
 	addi s11,s11,1      # return 1
 	jalr x0, 0(ra)
-Other:                       # otherwise
+Other:                      # otherwise
 	addi s11,s11,-1     # return -1
 	jalr x0, 0(ra)
