@@ -1,4 +1,5 @@
-# This is a practice of re
+# This is a practice of Leaf Procedure with RISC-V code.
+# By: Jeffrey1a2b
 .globl main
 .data
 	endl:	.string"\n"
