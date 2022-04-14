@@ -1,3 +1,4 @@
+# This is a practice of re
 .globl main
 .data
 	endl:	.string"\n"
