@@ -11,7 +11,7 @@
 main:
 	addi s2, x0, 1      # s2 as 1
 	addi s3, x0,10      # s3 as 10 
-	addi s4, x0,20      # s3 as 20 
+	addi s4, x0,20      # s4 as 20 
 	addi s11,x0, 0      # answer s11 = 0
  	la a0, Input        # load label Input to a0
 	li a7, 4            # PrintString at a0, Input a number:\n
