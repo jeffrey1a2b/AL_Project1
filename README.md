@@ -9,8 +9,8 @@ Below are the calculation of damage.
 |  2*N+F(N/5) |   N>20  |
 |  F(N-2)+F(N-3) |   10 < N <= 20  |
 |  F(N-1)+F(N-2) |   1 < N <= 10  |
-|  1 |   N = 1  |
-|  5 |   N = 0  |
+|  5 |   N = 1  |
+|  1 |   N = 0  |
 |  -1 |   otherwise  |
 
 ## Sample Input/Output
